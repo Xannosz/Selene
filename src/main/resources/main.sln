@@ -1,0 +1,8 @@
+static-import print;
+dynamic-import nope as no;
+
+function foo(string a, int b){
+	int bar = b;
+	print(a);
+	return a;
+}

@@ -1,0 +1,6 @@
+package hu.xannosz.selene.compiler.tokeniser;
+
+public enum TokenType {
+	COMMENT, OPERATOR, SEPARATOR, KEY_WORD, KEY_WORDS_MODIFIER, SKOPE, VARIABLE, TYPE, IDENTIFIER, //
+	LITERAL_STRING, LITERAL_NUMBER, LITERAL_BOOLEAN
+}
